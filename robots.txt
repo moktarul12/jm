@@ -1,0 +1,21 @@
+User-agent: *
+
+Sitemap: https://www.jmenterprise.in/sitemap.xml
+
+Disallow: /Exporters_Suppliers/
+Disallow: /login/
+Disallow: /credit_report/
+Disallow: /video/
+Disallow: /registration/new_city.html
+Disallow: /chat/visitor_form.html
+Disallow: /contact-us.html?
+Disallow: /take_mobile.html?
+Disallow: /inq_now.html?
+Disallow: /?fd=1
+Disallow: /inquiry.html
+Disallow: /contact_us.html?catalog_id=
+Disallow: /send_inquiry.html?product_id=
+Disallow: /products_swipe.html?product_id=
+Disallow: /utils/
+Disallow: /ads.txt
+        

@@ -1,0 +1,1336 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background: #f2f3f7;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+a,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #1c86fe;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+.clearfix:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1500px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+
+/* Button Css Starts here */
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #ad0808;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #ad0808;
+    border: 1px solid #ad0808;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #ad0808;
+    border: 1px solid #ad0808;
+}
+
+.btn-secondary:hover {
+    background: #ad0808;
+    color: #fff;
+}
+
+/* Button Css Ends here */
+
+/* Product Info Section CSS Starts here */
+.product-info-section-main {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+.product-info-section-main .product-info-section {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* Product thumbnail section CSS Starts Here */
+.product-thumbnail-section {
+    float: left;
+    width: 8%;
+    padding: 40px 15px 0;
+    text-align: center;
+}
+
+.product-thumbnail-section .slick-list {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+.product-thumbnail-section .slick-arrow {
+    background: none;
+    color: transparent;
+    border: none;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.product-thumbnail-section .slick-arrow.slick-prev {
+    background: url(../../../../assets/tiimg/new_website1/showroom-page/left-arrow.png) no-repeat;
+    transform: rotate(90deg);
+    left: -3px;
+    position: relative;
+}
+
+.product-thumbnail-section .slick-arrow.slick-next {
+    background: url(../../../../assets/tiimg/new_website1/showroom-page/right-arrow.png) no-repeat;
+    transform: rotate(90deg);
+    position: relative;
+    top: 7px;
+    left: -4px;
+}
+
+.slick-slide {
+    opacity: 0.5;
+}
+
+.slick-slide.slick-current {
+    opacity: 1;
+}
+
+.product-thumbnail-section img {
+    display: block;
+    width: 100%;
+    margin: 0 0 15px 0;
+    max-height: 70px !important;
+}
+
+.img-main-section {
+    float: left;
+    width: 40%;
+}
+
+/* Product thumbnail section CSS Ends Here */
+
+/* Product images section starts Here */
+.main-image-section {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: 500px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    align-self: flex-start;
+    margin: 0 0 15px 0;
+}
+
+.main-image-section .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.main-image-section .main-image-area{
+		display:block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+}
+
+.main-image-section img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+/* Product images section Ends Here */
+
+/* Product Details Section Starts here */
+.product-info-details {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 0 15px;
+    padding: 0 0 0 30px;
+    align-self: flex-start;
+}
+
+
+
+.product-heading {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0 0 5px;
+    margin: 15px 0 10px;
+    text-align: left;
+}
+
+.product-heading h1 {
+    display: inline-block;
+    font-size: 26px;
+    color: #000;
+		line-height: normal;
+}
+
+.product-price-section {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.product-price {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.product-price span {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #1b85fd;
+}
+
+.product-price span i {
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.get-price-btn {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+.get-price-btn a {
+    display: block;
+    width: 100%;
+    color: #000;
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid #ad0808;
+    border-radius: 7px;
+    padding: 7px 10px;
+}
+
+.product-details {
+    display: block;
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.product-details h3 {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+
+.product-details ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.product-details ul li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    color: #000;
+    padding: 8px 2px;
+    font-weight: 200;
+}
+
+.product-details ul li:last-child {
+    border-bottom: none;
+}
+
+.product-details ul li span:first-child {
+    width: 40%;
+    color: #000;
+    font-weight: 400;
+}
+
+.product-details ul li span {
+    display: inline-block;
+    width: 58%;
+    vertical-align: top;
+}
+
+.product-details a {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+}
+
+.product-details a:hover {
+    text-decoration: underline;
+}
+
+.product-detail-btn-section {
+    display: block;
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 0 20px;
+}
+
+.product-detail-btn-section .btn {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+/* Product Details Section Ends here */
+/* Product Info Section CSS Ends here */
+
+/* Other info Section CSS Starts here */
+.other-info-section-main {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.other-info-section {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 20px 20px 25px;
+}
+
+.product-specs-section {
+    display: block;
+    width: 100%;
+}
+
+.product-specs-section h2 {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 22px;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 0 0 8px 0;
+    color: #333;
+    text-align: left;
+}
+
+.product-specs-section ul {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.product-specs-section ul li {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.product-specs-section ul li label {
+    display: inline-block;
+    width: 47%;
+    color: #000;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+.product-specs-section ul li span {
+    display: inline-block;
+    font-weight: 200;
+    width: 50%;
+}
+
+.product-description-section {
+    display: block;
+    width: 100%;
+}
+
+.product-description-section h2 {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 22px;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 0 0 8px 0;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.product-description-section p {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 10px;
+    font-weight: 200;
+}
+
+.product-description-section ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 25px;
+}
+
+.product-description-section ul li {
+    display: list-item;
+    list-style: disc;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0;
+    margin: 0;
+    font-weight: 200;
+}
+.product-description-section ul li p{
+    font-weight: 200 !important;
+}
+
+
+.product-table {
+    display: block;
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+/* Other info Section CSS Ends here */
+
+/* Inquiry Form Section CSS Starts here */
+.inquiry-form-section-main {
+    display: block;
+    width: 100%;
+}
+
+.inquiry-form-section {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 20px 20px 40px;
+}
+
+.inquiry-form-section h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.inquiry-form-section form {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 170px 0;
+}
+
+.form-group {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.form-group label {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.form-group label i {
+    font-style: normal;
+    margin: 0 0 0 5px;
+    color: #ff1d1d;
+    font-size: 17px;
+}
+
+.form-group span {
+    display: block;
+    width: 100%;
+    color: #666;
+    margin: 0 0 15px 0;
+}
+
+textarea.form-control {
+    display: block;
+    width: 100%;
+    background: #eaf0f6;
+    border-radius: 5px;
+    border: 1px solid #70b6fb;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+input[type="text"].form-control {
+    display: block;
+    width: 100%;
+    background: #eaf0f6;
+    border-radius: 5px;
+    border: 1px solid #70b6fb;
+    font-family: roboto;
+    font-size: 15px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.half-field-section {
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.custom-padding {
+    padding: 0 15px;
+}
+
+.form-btn-section {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.form-btn-section .btn {
+    background: #e62e04;
+    border: 1px solid #95341e;
+    padding: 15px 40px;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.form-btn-section .btn:hover {
+    background: transparent;
+    border: 1px solid #95341e;
+    color: #e62e04;
+    transition: all ease 0.5s;
+}
+
+.terms-condition-section {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #cfcfcf;
+    margin: 0px 0 0 0;
+    padding: 10px 0;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox span {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.custom-checkbox input[type="checkbox"]:checked~span {
+    background: #0094ff;
+    border: none;
+
+}
+
+.custom-checkbox input[type="checkbox"]:checked~span:before {
+    content: "";
+    background: transparent;
+    border: 2px solid #fff;
+    border-width: 0 0 2px 2px;
+    width: 9px;
+    height: 4px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transform: rotate(-38deg);
+}
+
+.custom-checkbox label {
+    padding: 0 0 0 25px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+/* Inquiry Form Section CSS Ends here */
+
+
+/* Other Products Section CSS Starts here */
+.other-products-section-main {
+    display: block;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.other-product-section {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.other-product-section h3 {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    width: 24%;
+    background: #fff;
+    padding: 10px;
+    margin: 0 4px;
+    flex-wrap: wrap;
+}
+
+.other-prod-img-section {
+    display: block;
+    width: 100%;
+}
+
+.other-prod-img-section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+}
+
+.other-prod-img-section img {
+    display: inline-block;
+    width: 100%;
+}
+
+.other-prod-content-section {
+    display: block;
+    width: 100%;
+    padding: 20px 10px 0;
+    align-self: flex-end;
+}
+
+.other-prod-content-section label {
+    display: block;
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 0 0 5px 0;
+    font-weight: 500;
+    margin: 0 0 7px 0;
+}
+
+.other-prod-content-section label a {
+    color: #000;
+}
+
+.other-prod-content-section a {
+    margin: 0 0 20px 0;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.other-prod-btn-section {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.other-prod-btn-section a.btn {
+    margin: 0;
+    padding: 6px 20px;
+    font-size: 15px;
+}
+
+/* Other Products Section CSS Ends here */
+
+
+/* Fixed Button CSS Starts Here */
+
+.fixed-btn-section {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    display: none;
+    transition: all ease 0.5s;
+}
+
+.fixed-btn-section.show {
+    bottom: 0;
+    transition: all ease 0.5s;
+}
+
+.fixed-btn-section a.btn-primary {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.fixed-btn-section a.btn-primary:hover {
+    background: #fff;
+    color: #ad0808;
+    border: 1px solid #ad0808;
+}
+
+.fixed-btn-section a.btn-secondary {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.fixed-btn-section a.btn-secondary:hover {
+    background: #ad0808;
+    color: #fff;
+}
+
+/* Fixed Button CSS Ends Here */
+
+
+/* Share Your Products Link Starts Here */
+.product-details ul li .share-your-product {
+    display: inline-block;
+    margin: 2px 0 0 0;
+}
+
+.product-details ul li .share-your-product i {
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.product-details ul li .share-your-product .jssocials {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product-details ul li .share-your-product i a {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.product-details ul li .share-your-product i a:hover img {
+    filter: contrast(0);
+}
+
+/* Share Your Products Link ends Here */
+
+
+/* Responsive CSS Starts here */
+/* Responsive css upto max width 1024px */
+@media only screen and (max-width: 1024px) {
+    .main-image-section {
+        align-self: flex-start;
+    }
+
+    .product-thumbnail-section {
+        margin: 70px 0 0 0;
+        align-self: flex-start;
+    }
+
+    .product-info-details {
+        width: 52%;
+        margin: 0 0 0 0px;
+        padding: 0 0 0 10px;
+    }
+
+    .product-heading {
+        margin: 15px 0 10px;
+    }
+
+    .product-heading h1 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .product-price {
+        font-size: 17px;
+    }
+
+    .product-price span i {
+        font-size: 17px;
+    }
+
+    .get-price-btn a {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .product-details {
+        margin: 20px 0 0 0;
+    }
+
+    .product-details h3 {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+    }
+
+    .product-details ul li {
+        padding: 5px 2px;
+        font-size: 15px;
+    }
+
+    .product-details a {
+        font-size: 14px;
+    }
+
+    .product-detail-btn-section .btn {
+        font-size: 17px;
+        padding: 8px 20px;
+    }
+
+    .product-specs-section h2 {
+        font-size: 17px;
+    }
+
+    .product-specs-section ul {
+        padding: 10px;
+    }
+
+    .product-specs-section ul li {
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .product-description-section h2 {
+        font-size: 17px;
+    }
+
+    .product-description-section p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .inquiry-form-section form {
+        padding: 30px 0px 0;
+    }
+
+    .product {
+        width: 24%;
+        padding: 10px;
+        margin: 0 2px;
+    }
+
+    .other-prod-content-section label {
+        min-height: 55px;
+    }
+
+    .product-video-section {
+        margin: 0 5px;
+    }
+}
+
+
+/* Responsive css upto max width 480px */
+@media only screen and (max-width: 480px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .product-thumbnail-section {
+        width: 100%;
+        margin: 0;
+        order: 2;
+    }
+
+    .product-thumbnail-section img {
+        display: inline-block;
+    }
+
+    .main-image-section {
+        width: 100%;
+        order: 1;
+        margin: 0 0 10px 0;
+    }
+
+		.main-image-section img{
+				width: auto;
+				display:inline-block !important;
+		}
+
+
+    .product-info-section-main .product-info-section {
+        padding: 10px;
+    }
+
+    .product-info-details {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        order: 3;
+    }
+
+    .other-info-section {
+        padding: 10px;
+    }
+
+    .product-details ul li {
+        font-size: 13px;
+    }
+
+    .product-details ul li span:first-child {
+        width: 45%;
+    }
+
+    .product-details ul li span {
+        width: 53%;
+    }
+
+    .product-specs-section ul li {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .product-specs-section ul li label {
+        width: 51%;
+        font-weight: 500
+    }
+
+    .product-specs-section ul li span {
+        width: 47%;
+    }
+
+    .product-description-section p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .inquiry-form-section {
+        padding: 10px;
+    }
+
+    .inquiry-form-section form {
+        padding: 10px 0px 0;
+    }
+
+    .half-field-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .product {
+        width: 100%;
+        padding: 10px;
+        margin: 0 0px 20px;
+    }
+
+    .product-table {
+        overflow: scroll;
+    }
+
+
+    .product-list .slick-prev {
+        position: absolute;
+        top: 32%;
+        left: 0;
+        z-index: 9999;
+        color: transparent;
+        background: url(../images/left-arrow.png) no-repeat;
+        border: none;
+        width: 20px;
+        height: 20px;
+        outline: none;
+
+    }
+
+    .product-list .slick-next {
+        position: absolute;
+        top: 32%;
+        right: 0;
+        z-index: 9999;
+        color: transparent;
+        background: url(../images/right-arrow.png) no-repeat;
+        border: none;
+        width: 20px;
+        height: 20px;
+        outline: none;
+    }
+
+    .product-list .slick-list {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-image-section .slick-track {
+        height: auto;
+    }
+
+    .other-prod-content-section {
+        padding: 20px 10px;
+    }
+
+    .product-description-section ul li {
+        font-size: 13px;
+    }
+
+    .product-description-section p {
+        padding: 10px;
+    }
+
+    .other-products-section-main {
+        padding: 0 0 0px 0;
+    }
+
+    .other-product-section h3 {
+        font-size: 22px;
+    }
+
+    .fixed-btn-section {
+        display: none;
+    }
+
+    .modal.video-modal .modal-dialog .modal-content {
+        width: 95%;
+    }
+
+}
+
+/* Responsive CSS Ends here */
+
+/* Modal Css Starts Here */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99999;
+    display: none;
+}
+
+.modal .modal-dialog {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-dialog .modal-content {
+    margin: 0 auto;
+    background: #fff;
+    width: 450px;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+.modal.video-modal .modal-dialog .modal-content {
+    width: 700px;
+    padding: 25px 15px 15px;
+    border-radius: 5px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #cfcfcf;
+    position: relative;
+}
+
+.modal .modal-dialog .modal-content .modal-header .modal-close-btn {
+    position: absolute;
+    top: -21px;
+    right: -12px;
+    font-size: 27px;
+    color: #777;
+    background: none;
+    border: none;
+    line-height: 17px;
+    cursor: pointer;
+    outline: none;
+    width: auto;
+    min-height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    display: block;
+    width: 100%;
+}
+
+.modal .modal-dialog .modal-content .modal-body video {
+    width: 100%;
+}
+
+.blur-bg.blurred {
+    filter: blur(3px);
+}
+
+.bg-overlay {
+    overflow: hidden;
+    padding-right: 17px;
+}
+
+/* Product Video Link CSS Starts Here */
+.product-video-section {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+#product-img-nav .product-video-section{
+    margin: 0 0 !important;
+}
+
+
+.product-video-section .product-video-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.product-video-section .product-video-link a {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.product-video-section .product-video-link a:after {
+    content: url(../../../../assets/tiimg/new_website1/ti-design/catalog/images/video-icon.png);
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.product-video-section .product-video-link a:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Product Video Link CSS Ends Here */
+
+/* product pdf css start here     */
+    .product-video-section .product-video-link .short_spec_pdf{
+    display:flex;
+    align-items:center;
+    width:auto;
+    }
+    .product-video-section .product-video-link .short_spec_pdf img{
+    width:36px;
+    height:36px;
+    margin-right:3px;
+    }
+    .product-video-section .product-video-link .short_spec_pdf:before,
+    .product-video-section .product-video-link .short_spec_pdf:after,
+    .product-video-section .product-video-link .short_spec_pdf a:before,
+    .product-video-section .product-video-link .short_spec_pdf a:after{
+    display:none;
+    }
+    .product-video-section .product-video-link .short_spec_pdf a{
+        display: inline-block;
+        width: auto;
+    }
+/* product pdf css end here     */
+
+/* slider css start here */
+#product-img-nav{
+    padding-top:0;
+    }
+    #product-img-nav .slick-slide{
+    width:50px !important;
+    height:50px;
+    border:solid 2px #ccc;
+    margin-bottom:10px;
+    }
+    #product-img-nav .slick-slide img{
+            width:46px;
+            height:46px;
+    }
+    #product-img-nav .slick-slide .product-video-link a{
+    width:46px;
+    height:46px;
+    }
+    #product-img-nav .slick-prev, #product-img-nav .slick-next {
+    display:block !important;
+    }
+    #product-img-nav .slick-prev.slick-disabled, #product-img-nav .slick-next.slick-disabled{
+    opacity:0.25;
+    }
+
+    
+    .slideMainCnt{
+        width:48%;
+        }
+        .slideSubCnt{
+        width:100%;
+        }
+
+        .slideSubCnt .product-thumbnail-section{
+        width:15%;
+        }
+
+        .slideSubCnt .main-image-section{
+        width:85%;
+        }
+        .slideMainCnt .product-video-section .product-video-link{
+        width:auto;
+        height:auto;
+        }
+
+        .slideMainCnt .product-video-link .textPlay{
+        font-size:14px;
+        font-weight:400;
+        color:#000;
+        text-decoration: underline;
+        }
+        .slideMainCnt .product-video-link #ProdVideo2{
+        display:flex;
+        align-items:center;
+        cursor: pointer;
+        }
+        .slideMainCnt .product-video-link #ProdVideo2 img{
+        width:36px;
+        height:36px;
+        margin-right:5px;
+        }
+
+        .moreVideo{
+            display:flex;
+            justify-content:center;
+            padding-left:15%;
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .slideMainCnt{
+                width:100%;
+                }
+            }                
+    /* slider css end here */
+    

@@ -1,0 +1,589 @@
+*,html,p,td,tr,div,table,dt,dd,dl{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.redColor{
+color:#ff0000;
+}
+
+.f2b {
+color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* header start */
+.minified_fields{
+width:100%
+}
+.Form-header{
+    box-shadow: 0 3px 4px #ccc;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.Form-header-inner{
+    width: 850px;
+    margin: 0 auto;
+}
+.Form-header-inner span{
+font-size: 25px;
+padding: 0 10px;
+cursor: pointer;
+margin-right: 20px;
+}
+
+/*contact form css start*/
+.showroom_heading_form {
+    background-color: #00B2EE;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.formMainContainer{
+  width: 990px;
+  margin: 0 auto;
+}
+
+.contact-form-container {
+  box-sizing: border-box;
+  color: #000;
+  font-family: 'roboto';
+  padding: 0 7%;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.contact-form-container .common-form{
+
+border-top:solid 1px #ccc;
+margin-top:20px;
+    padding-top: 8px;
+}
+.contact-form-container .common-form a{
+text-decoration: none;
+}
+
+.contact-form-container .common-form a:hover{
+}
+
+  .contact-form-container p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      margin: 0;
+     text-align:left;
+      padding: 0 0 10px;  
+      color: #606366; 
+  }
+
+.contact-form-container .common-form textarea {
+    width: 100%;
+    padding: 10px;
+    height: 90px;
+    box-sizing: border-box;
+    border: solid 1px #70b6fb;
+    color: #666b71;
+    border-radius: 2px;
+    font-size: 16px;
+    background: #eaf0f6;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    font-weight:normal;
+  }
+.contact-form-container .common-form textarea::placeholder {
+    color: #666b71;
+
+  }
+.contact-form-container .common-form input[type=text] {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    font-weight:normal;
+    box-sizing: border-box;
+    border: solid 1px #70b6fb;
+    border-radius: 2px;
+    color: #666b71;
+    font-size: 16px;
+    background: #eaf0f6;
+    border-radius: 3px;
+    outline: none;
+  }
+ .contact-form-container .common-form input[type=text]::placeholder {
+    color: #666b71;
+  }
+
+ .contact-form-container .common-form input[type="tel"] {
+    width: 100%;
+    font-weight:normal;
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+    border: solid 1px #70b6fb;
+    border-radius: 2px;
+    color: #666b71;
+    font-size: 16px;
+    background: #eaf0f6;
+    border-radius: 3px;
+    outline: none;
+  }
+ .contact-form-container .common-form input[type="tel"]::placeholder {
+    color: #666b71;
+  }
+
+  
+ .contact-form-container .common-form input[type="email"] {
+    width: 100%;
+    font-weight:normal;
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+    border: solid 1px #70b6fb;
+    border-radius: 2px;
+    color: #666b71;
+    font-size: 16px;
+    background: #eaf0f6;
+    border-radius: 3px;
+    outline: none;
+  }
+ .contact-form-container .common-form input[type="email"]::placeholder {
+    color: #666b71;
+  }
+
+  
+ .contact-form-container .common-form input[type="number"] {
+    width: 100%;
+    font-weight:normal;
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+    border: solid 1px #70b6fb;
+    border-radius: 2px;
+    color: #666b71;
+    font-size: 16px;
+    background: #eaf0f6;
+    border-radius: 3px;
+    outline: none;
+  }
+ .contact-form-container .common-form input[type="number"]::placeholder {
+    color: #666b71;
+  }
+ .contact-form-container .common-form select {
+    width: 100%;
+    font-weight:normal;
+    height: 42px;
+    border: none;
+    width: 100%;
+    border: solid 1px #cccccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none !important;
+    -ms-appearance: none;
+    appearance: none;
+    background: url(https://img.tradeindia.com/new_website1/ti-design-2017/images/down-arrow.png) right 18px no-repeat;
+    padding:  0.5rem 0.625rem;
+    color: #a1a1a1;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    background-color: #ffffff !important;
+  }
+  
+ .contact-form-container .common-form dl {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: WRAP;
+  }
+ .contact-form-container .common-form dd {
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    float: left;
+  }
+ .contact-form-container .common-form .dd-100 {
+    width: 100% !important;
+  }
+  .contact-form-container .common-form .dd-18 {
+    width: 18%;
+  }
+  .contact-form-container .common-form .dd-22 {
+    width: 22%;
+  }
+  .contact-form-container .common-form .dd-25 {
+    width: 25%;
+  }
+  .contact-form-container .common-form .dd-33 {
+    width: 33.3%;
+  }
+  .contact-form-container .common-form .dd-50 {
+    width: 50%;
+  }
+  .contact-form-container .common-form .dl-80 {
+    width: 80% !important;
+  }
+  .contact-form-container .common-form .margin-center {
+    margin: 0 auto;
+  }
+  .contact-form-container .common-form .margin-8 {
+    margin-top: 8px !important;
+  }
+
+  .contact-form-container .common-form .margin-left {
+    margin-left: 2%;
+  }
+
+  .contact-form-container .common-form .margin-right {
+    margin-right: 2%;
+  }
+
+
+
+  .center {
+    text-align: center;
+}
+  .contact-form-container .common-form .terms-txt {
+    color: #6c6b6b;
+    font-size: 15px;
+    font-size: 0.875rem;
+    padding:  25px 0 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  .contact-form-container .common-form .intl-tel-input {
+    width: 100%;
+  }
+  .contact-form-container .common-form .intl-tel-input .flag-dropdown {
+    margin-top:  1.25rem;
+  }
+
+  .contact-form-container .common-form .intl-tel-input .flag-dropdown {
+    margin-top:  0;
+    padding:  0.6875rem 1.1875rem 0 0.125rem;
+    height:  1.8125rem;
+    border-right: 1px solid #bdc7d8;
+  }
+
+  .contact-form-container .common-form dd {
+    position: relative;
+  }
+  .contact-form-container .common-form label {
+    font-size: 16px;
+    padding: 5px 2px 5px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    font-family: arial;
+    text-align:left;
+    display: block;
+  }
+  .contact-form-container .common-form label span {
+    color: #ff0000;
+    font-size: 22px;
+  }
+  /* .common-form input:focus + label {
+    opacity: 1;
+    top: -8px;
+    color: #000000;
+  }
+  .common-form textarea:focus + label {
+    opacity: 1;
+    top: -8px;
+    color: #000000;
+  } */
+
+  .contact-form-container .p-left {
+    padding-left: 50px !important;
+  }
+  .contact-form-container .product-img-box {
+    float: left;
+    width: 39%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+.normal{
+    font-size: 15px!important;
+    font-weight:normal!important;
+}
+
+  .common-form .btn {
+width: 165px!important;
+height: 42px!important;
+float: none!important;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+.blue-btn {
+    border: solid 1px #f09d0d;
+    background: #ffc20e;
+    transition: all 0.3s ease;
+    color: #000;
+    font-weight: bold;
+}
+ .common-form .btn:hover {
+    opacity: 0.8;
+   color:#000;
+background: #f09d0d; 
+  }
+.yellow-btn {
+    border: solid 1px #f09d0d;
+    background: #ffc20e;
+    transition: all 0.3s ease;
+    color: #000;
+    font-weight: bold;
+}
+ .common-form .btn:hover {
+    opacity: 0.8;
+   color:#000;
+background: #f09d0d;
+  }
+
+.productDetails{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.productList{
+/*background: #eaf0f6;*/
+    padding: 5px 5px 15px;
+    border-bottom: solid 1px #ccc;
+}
+.productImg{
+  float: left;
+}
+.productImg img{
+width: 50px;
+height: 50px;
+}
+.productName{
+  float: left;
+  padding: 17px 0 0 10px;
+  width: 350px;
+}
+.productName span{
+font-weight: bold;
+}
+
+.moreDetails{
+  padding: 0px 6px;
+  border: solid 1px #000;
+  font-size: 15px;
+  margin: 0 0 0 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.moreDetails:hover{
+background: #00b2ee;
+color: #fff;
+transition: 0.3s;
+}
+.coName{
+  float: right;
+  padding: 17px 0 0 0;
+}
+
+.addressDetails{
+  background: #f2f2f2;
+  padding: 15px;
+  display: none;
+}
+
+.footer-catalog{
+background: #333;
+padding: 50px;
+color: #fff;
+font-size: 22px;
+text-align: center;
+margin-top: 30px;
+
+}
+
+.thanksTxt{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #009145;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+.thanksTxt img{
+margin: 0 0 20px 0;
+}
+.thanksMsg{
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.thanksMsg a{
+  color: #009fc9;
+  display: block;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+
+
+/* validation css start */
+
+#email-error, #name-error, #mobile-error, #co_name-error, #reg_login_pincode-error, #message-error, #checkbox1-error, #city_id_input-error{
+    text-align: left;
+    padding: 4px 10px 4px 0;
+    color: red;
+    border:none!important;
+    font-size: 13px;
+font-weight: normal;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 .selected-flag, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 .selected-flag, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 .selected-flag{
+  border-right: solid 1px #70b6fb;
+  height: 49px;
+  outline: none;
+  color: #666b71;
+}
+
+
+
+.intl-tel-input.separate-dial-code .selected-flag{
+  background: none!important;
+  outline: none;
+}
+.contact-form-container .common-form .error {
+    border:solid 1px red!important;
+
+}
+
+
+
+
+/* media query css start */
+
+@media (max-width:768px){
+  .Form-header-inner{
+    width: 100%;
+  }
+  .formMainContainer {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+ }
+
+}
+
+@media (max-width:480px){
+
+  .Form-header{
+    padding: 8px 0;
+  }
+  .productDetails{
+    margin-bottom: 5px;
+  }
+  .common-form dd{
+    margin: 0;
+  }
+  .Form-header-inner{
+    width: 100%;
+  }
+  .formMainContainer {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+ }
+ .coName {
+  float: left;
+  width: 100%;
+  padding: 9px 0 0 0;
+  text-align: center;
+
+}
+
+.productImg{
+  display: none;
+}
+.productName{
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.contact-form-container .common-form dd{
+  width: 100%;
+}
+.contact-form-container .common-form .margin-left{
+  margin-left: 0;
+  width: 100%;
+}
+.contact-form-container {
+padding: 0 5%;
+}
+.contact-form-container .common-form label{
+  font-size: 13px;
+}
+.contact-form-container p{
+  display: none;
+}
+
+.contact-form-container .common-form label {
+  margin: 0px;
+  padding:5px 0 5px;
+}
+
+.contact-form-container .common-form dd {
+    margin: 0 0 5px 0;
+}
+
+}
+.intl-tel-input.separate-dial-code .selected-dial-code{
+    padding-left: 21px;
+
+}
+
+.form_product_bg{
+background:#f2f2f2;
+padding: 10px 0;
+margin-bottom: 20px;
+border: solid 1px #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+
+/* media query css end */
+
+
+
+/*extra details start*/
+
+
+.extra-details-wrapper{
+max-width:900px;
+margin:0 auto;
+font-family:'arial'
+}
+
+.if_input {
+line-height: normal !important;
+}
+
+
+
+
+
+
+
+
+
+
